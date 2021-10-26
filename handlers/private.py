@@ -10,31 +10,25 @@ async def start(_, message: Message):
     await message.reply_photo("https://i.ibb.co/khRz42f/Turkish-Voice.jpg")
     await message.reply_text(
         f"""**Merhaba, {message.from_user.mention} 🎵
-Sesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [Talia Müzik 🎙️](https://t.me/Sohbetdestek).
+Sesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [🛠️ Yardım](https://t.me/KSYardim).
  **""",
 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🏷️ Destek Grubu", url="https://t.me/Sohbetdestek"
+                        "🏷️ Kanal", url="https://t.me/KSBots"
+                    ),
+                    [
+                    InlineKeyboardButton(
+                        "🛠 Kurucu" , url = "https://t.me/KenanBitcoin"
                     ),
                     InlineKeyboardButton(
-                        "🔧 Yardımcı", url = "https://t.me/Bir_Beyfendi"
+                        "🔊 Asistan" , url = "https://t.me/KSAsistan"
                     )
-                  ],[
+                ],
                     InlineKeyboardButton(
-                        "🛠 Kurucu" , url = "https://t.me/Mahoaga"
-                    ),
-                    InlineKeyboardButton(
-                        "🔊 Asistan" , url = "https://t.me/TaliaMusicAsistant"
-                    )
-                ],[ 
-                    InlineKeyboardButton(
-                        "🌀 Komutlar" , url = "https://telegra.ph/Komutlar-10-22"
-                    ),
-                    InlineKeyboardButton(
-                        "🎮 Oyun Botu", url="https://t.me/BasitOyunBot"
+                        "🌀 Komutlar" , url = "https://t.me/KSYardim"
                     )]
             ]
         ),
@@ -48,7 +42,7 @@ async def reload(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⚙ Geliştirici", url="https://t.me/Mahoaga")
+                        "⚙ Geliştirici", url="https://t.me/KenanBitcoin")
                 ]
             ]
         )
