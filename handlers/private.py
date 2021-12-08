@@ -17,18 +17,18 @@ Sesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi v
             [
                 [
                     InlineKeyboardButton(
-                        "🏷️ Kanal", url="https://t.me/KSBots"
+                        "🏷️ Kanal", url="https://t.me/HerlockBots"
                     ),
                     [
                     InlineKeyboardButton(
-                        "🛠 Kurucu" , url = "https://t.me/KenanBitcoin"
+                        "🛠 Kurucu" , url = "https://t.me/tht_herlock"
                     ),
                     InlineKeyboardButton(
                         "🔊 Asistan" , url = "https://t.me/KSAsistan"
                     )
                 ],
                     InlineKeyboardButton(
-                        "🌀 Komutlar" , url = "https://t.me/KSYardim"
+                        "🌀 Komutlar" , url = "https://t.me/herlocksupport"
                     )]
             ]
         ),
@@ -42,7 +42,7 @@ async def reload(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⚙ Geliştirici", url="https://t.me/KenanBitcoin")
+                        "⚙ Geliştirici", url="https://t.me/tht_herlock")
                 ]
             ]
         )
